@@ -32,13 +32,24 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo" alt="SheCodes" />
+        <a href="/">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes"
+          />
+        </a>
         <ul>
-          <li>
-            <a href="/"> Home </a>
+          <li class="active">
+            <a href="/"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About </a>
+            <a href="/about.html"> About</a>
           </li>
           <li>
             <a href="/work.html"> Work</a>

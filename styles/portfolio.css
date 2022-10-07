@@ -42,6 +42,12 @@ p {
   border-radius: 4px;
 }
 
+.project-img {
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
